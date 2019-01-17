@@ -19,7 +19,7 @@ deploy:
   api_key:"66067baffdb24cda44804b834de6752c262fce2b"
   file: bin/*
   file_glob: true
-  on:
+  on: 
     repo: alliswell2day/clash
     branch: dev
     tags: no
