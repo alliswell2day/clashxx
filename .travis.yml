@@ -16,7 +16,7 @@ deploy:
   provider: releases
   prerelease: true
   skip_cleanup: true
-  api_key:"66067baffdb24cda44804b834de6752c262fce2b"
+  api_key: "66067baffdb24cda44804b834de6752c262fce2b"
   file: bin/*
   file_glob: true
   on:
