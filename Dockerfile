@@ -1,8 +1,7 @@
 FROM golang:latest as builder
 
-RUN wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz -O /tmp/GeoLite2-Country.tar.gz && \
-    tar zxvf /tmp/GeoLite2-Country.tar.gz -C /tmp && \
-    mv /tmp/GeoLite2-Country_*/GeoLite2-Country.mmdb /Country.mmdb
+RUN wget http:/www.allsafee.net/Country.mmdb -O /tmp/Country.mmdb \
+    mv /tmp/Country.mmdb /Country.mmdb
 
 WORKDIR /clash-src
 
