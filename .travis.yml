@@ -23,4 +23,4 @@ deploy:
   on:
     repo: alliswell2day/clashxx 
     branch: master
-    tags: true
+    tags: no
