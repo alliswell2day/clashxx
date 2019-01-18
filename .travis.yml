@@ -16,9 +16,8 @@ deploy:
   provider: releases
   prerelease: true
   skip_cleanup: true
-  api_key:
-   secure: "qK/83i6OtqziQLKQRcUsqpQfwsqXNKAec15S7c8hMfAmPthoTW0amkJarbVx1CXI6375O8edQkmkq28Cce5aw4giNe1sRFsmo/dihi8ST+M50vUvjZU2VJ98fE3EFjTMrBXZTJefPL2sdUDeL4VgLLCaBznW1v4cB6a83dCnuGcrDfvnvDefjyaMWfEOXUPrvWKbyJTJepX6mzeDKk9wbPd8nMvihVqJn0P3T1uVl5u0J7Y11oPe18lDzvBbxVZuRAMCHAdj2rCsEfv6YN/zbKw+TKMWRtgWcsNlVpWRk6N2W11gEAg3hhincCSRKKVEzp0Yd6Z2P/YdJL/dtFzibWVUG6cUhWDeqXocKMjYIjoNxKzoblCftQw6PI2H5p2ECCAMwkW8UBaYf7oH0ocS8N01J3XTq6N4u6XZaR/CkSnTuaPa51bHB+RGRk0c/T0yRHEabUHl4UUS1FCjSdyONs2+q6LaNIQhqZ6nBKeASR07g5S1lJ0hf+52rE93Rhli+qnssIYJif7bcOoUDZ8jG2zLAe3tczzwTGqcxdCSxc+oULQQpkGcsdAWxjKsI6RnNVPZY4LaHtqxfdPErfvImEtsOls46KjV8GYwuY2eso88Frh/FdE4iUnB9LEIlek22Q2B4bEtS3Kjqi31nl3risWJF2YIGQMxHegoijwtoN8="
-   file: bin/*
+  api_key: $GITHUB_TOKEN
+  file: bin/*
   file_glob: true
   on:
     repo: alliswell2day/clashxx 
