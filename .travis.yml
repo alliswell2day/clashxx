@@ -22,5 +22,5 @@ deploy:
   file_glob: true
   on:
     repo: alliswell2day/clashxx 
-    branch: master
+    branch: master 
     tags: no
